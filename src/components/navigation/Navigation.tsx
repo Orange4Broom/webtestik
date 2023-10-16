@@ -11,6 +11,7 @@ export const Navigation = () => {
   const [password, setPassword] = useState('');
   const { state } = useAuthContext();
   const { error, login } = useLogin();
+  console.log(error);
 
   const handleLogin = async () => {
     event?.preventDefault();
