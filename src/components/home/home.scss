@@ -1,0 +1,55 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+
+  padding: 10px 20px;
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    .link {
+      color: #9d9d9d;
+    }
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    color: white;
+    background-color: #212429;
+    width: 100%;
+    min-height: 300px;
+    padding: 40px 20px;
+  }
+
+  .posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+
+    .post {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+      color: white;
+      background-color: #212429;
+      width: 50%;
+      min-height: 100px;
+      padding: 40px 20px;
+    }
+  }
+}
